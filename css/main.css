@@ -26,6 +26,8 @@ body {
 }
 
 .username {
+    margin-right: -4px;
+
     opacity: 0.55;
     color: #000;
 }
@@ -88,16 +90,57 @@ body {
 }
 
 .main_container {
-    margin-top: 149px;
+    clear: both;
+
+    width: 638px;
+    margin: 0 auto;
+    padding-top: 149px;
 }
 
 .logo {
-    clear: both;
-
     width: 272px;
     height: 92px;
     margin: 0 auto;
 
-    background: transparent url("https://www.google.pl/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png") no-repeat 0% 0% scroll;
+    background: transparent url("https://www.google.pl/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png") no-repeat;
     background-size: 272px 92px;
+}
+
+.country_name {
+    float: right;
+
+    margin-top: -16px;
+    margin-right: 190px;
+
+    color: #4285F4;
+
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.searchbox_container {
+    width: 100%;
+}
+
+.searchbox {
+    float: left;
+    width: 528px;
+    height: 26px;
+    margin-top: 30px;
+    margin-left: 34px;
+
+    line-height: 26px;
+    font-size: 16px;
+    padding: 6px;
+    border: 1px solid #D9D9D9;
+    border-right: 0;
+}
+
+.searchbox:active, .searchbox:focus, .searchbox:focus:hover {
+    border-color: #4D90FE;
+}
+
+.searchbox:hover {
+    border-color: #A0A0A0 #B9B9B9 #B9B9B9;
 }
