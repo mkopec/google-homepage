@@ -1,3 +1,11 @@
+li {
+    float: left;
+}
+
+a {
+    display: block;
+}
+
 body {
     font-family: arial, sans-serif;
     font-size: 13px;
@@ -11,49 +19,6 @@ body {
     width: 272px;
 }
 
-#user {
-    color: #000;
-    opacity: 0.55;
-}
-
-.anchor {
-    text-decoration: none;
-    color: #000;
-    opacity: 0.75;
-}
-
-.anchor:hover {
-    text-decoration: underline;
-}
-
-#options {
-    background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
-    background-size: 528px 68px;
-    display: inline-block;
-    background-position: -132px -38px;
-    height: 30px;
-    width: 30px;
-    vertical-align: middle;
-    box-sizing: border-box;
-    opacity: 0.75;
-}
-
-#options:hover {
-    opacity: 0.85;
-}
-
-#notifications {
-    background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
-    background-size: 528px 68px;
-    display: inline-block;
-    background-position: -194px -21px;
-    height: 20px;
-    width: 20px;
-    vertical-align: middle;
-    box-sizing: border-box;
-    opacity: 0.75;
-}
-
 #navbar {
     list-style-type: none;
     margin: 0;
@@ -64,12 +29,4 @@ body {
     height: 30px;
     right: 30px;
     position: absolute;
-}
-
-li {
-    float: left;
-}
-
-a {
-    display: block;
 }
