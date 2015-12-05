@@ -8,7 +8,7 @@ The aim was to make it look perfectly identical to the polish version of Google,
 
 To-do list:
 
-[x] Make it look perfectly identically to Google.pl
-[ ] Integrate with Google API
+- [x] Make it look perfectly identically to Google.pl
+- [ ] Integrate with Google API
 
 http://www.theodinproject.com/web-development-101/html-css?ref=lnav
